@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" id="nav-logo">Portfolio</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" id="nav-home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" id="nav-about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" id="nav-projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" id="nav-contact">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <div class="language-selector">
+                    <button class="language-toggle" id="language-toggle" aria-label="Select language">
+                        <i class="fas fa-globe"></i>
+                        <span class="current-lang">EN</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <ul class="language-dropdown" id="language-dropdown">
+                        <li data-lang="en" class="active">English</li>
+                        <li data-lang="tr">Türkçe</li>
+                        <li data-lang="ru">Русский</li>
+                        <li data-lang="tm">Türkmençe</li>
+                    </ul>
+                </div>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun light-icon"></i>
+                    <i class="fas fa-moon dark-icon"></i>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span id="hero-greeting">Hi, I'm</span> 
+                    <span class="highlight" id="hero-name">Dowran Rowshenow</span>
+                </h1>
+                <p class="hero-subtitle" id="hero-title">Full Stack Developer & Designer</p>
+                <p class="hero-description" id="hero-description">
+                    I create beautiful, functional, and user-centered digital experiences.
+                    Passionate about clean code and innovative solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary" id="btn-view-work">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary" id="btn-contact">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-placeholder">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" id="about-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p id="about-text-1">
+                        I'm a passionate developer with expertise in modern web technologies.
+                        I love creating applications that solve real-world problems and provide
+                        exceptional user experiences.
+                    </p>
+                    <p id="about-text-2">
+                        With a strong foundation in both frontend and backend development,
+                        I enjoy working on full-stack projects and learning new technologies.
+                    </p>
+                    <div class="skills">
+                        <h3 id="skills-title">Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" id="projects-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" id="project-1-title">Project One</h3>
+                        <p class="project-description" id="project-1-desc">
+                            A modern web application built with React and Node.js.
+                            Features include user authentication, real-time updates, and responsive design.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> <span id="project-code">Code</span></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> <span id="project-live">Live</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" id="project-2-title">Project Two</h3>
+                        <p class="project-description" id="project-2-desc">
+                            A mobile-first responsive website with modern animations and
+                            optimized performance for all devices.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> <span class="project-code-text">Code</span></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> <span class="project-live-text">Live</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" id="project-3-title">Project Three</h3>
+                        <p class="project-description" id="project-3-desc">
+                            A data visualization dashboard with interactive charts and
+                            real-time data processing capabilities.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> <span class="project-code-text">Code</span></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> <span class="project-live-text">Live</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" id="contact-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p id="contact-text">
+                        I'm always interested in hearing about new opportunities and exciting projects.
+                        Feel free to reach out if you'd like to connect!
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:your.email@example.com" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            your.email@example.com
+                        </a>
+                        <a href="https://github.com/yourusername" class="contact-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                        <a href="https://linkedin.com/in/yourusername" class="contact-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            LinkedIn
+                        </a>
+                        <a href="https://twitter.com/yourusername" class="contact-link" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                            Twitter
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p id="footer-copyright">&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
