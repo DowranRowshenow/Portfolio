@@ -352,39 +352,45 @@ body {
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
 }
 
-/* Beautiful animated glow effect */
+/* Test - extremely visible glow to debug */
 .profile-image::before {
-    content: '';
-    position: absolute;
-    top: -8px;
-    left: -8px;
-    right: -8px;
-    bottom: -8px;
-    border-radius: 50%;
-    background: linear-gradient(45deg, #667eea, #764ba2, #f093fb, #667eea);
-    background-size: 400% 400%;
-    animation: glowPulse 3s ease-in-out infinite;
-    z-index: -1;
-    opacity: 0.8;
-    filter: blur(8px);
-    display: block !important;
+    content: 'OUTER GLOW' !important;
+    position: absolute !important;
+    top: -20px !important;
+    left: -20px !important;
+    right: -20px !important;
+    bottom: -20px !important;
+    border-radius: 50% !important;
+    background: #ff0000 !important;
+    color: white !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    z-index: 999 !important;
+    opacity: 1 !important;
+    filter: none !important;
 }
 
 .profile-image::after {
-    content: '';
-    position: absolute;
-    top: -4px;
-    left: -4px;
-    right: -4px;
-    bottom: -4px;
-    border-radius: 50%;
-    background: linear-gradient(45deg, #4facfe, #00f2fe, #43e97b, #4facfe);
-    background-size: 200% 200%;
-    animation: glowRotate 4s linear infinite;
-    z-index: -1;
-    opacity: 0.6;
-    filter: blur(4px);
-    display: block !important;
+    content: 'INNER GLOW' !important;
+    position: absolute !important;
+    top: -10px !important;
+    left: -10px !important;
+    right: -10px !important;
+    bottom: -10px !important;
+    border-radius: 50% !important;
+    background: #00ff00 !important;
+    color: black !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+    z-index: 999 !important;
+    opacity: 1 !important;
+    filter: none !important;
 }
 
 /* Fallback glow effect when color analysis fails */
