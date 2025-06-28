@@ -14,7 +14,7 @@
     --shadow-color: rgba(0, 0, 0, 0.1);
     --nav-bg: rgba(255, 255, 255, 0.95);
     --card-bg: #ffffff;
-    --hero-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --hero-gradient: linear-gradient(135deg, #3a2349 0%, #1c073f 100%);
 }
 
 [data-theme="dark"] {
@@ -32,7 +32,7 @@
     --shadow-color: rgba(0, 0, 0, 0.3);
     --nav-bg: rgba(15, 23, 42, 0.95);
     --card-bg: #1e293b;
-    --hero-gradient: linear-gradient(135deg, #1e40af 0%, #7c3aed 100%);
+    --hero-gradient: linear-gradient(135deg, #160d1c 0%, #110328 100%);
 }
 
 /* Reset and Base Styles */
@@ -332,6 +332,96 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 2;
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Beautiful animated glow effect */
+.profile-image::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #667eea, #764ba2, #f093fb, #667eea);
+    background-size: 400% 400%;
+    animation: glowPulse 3s ease-in-out infinite;
+    z-index: -1;
+    opacity: 0.8;
+    filter: blur(8px);
+    display: block !important;
+}
+
+.profile-image::after {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #4facfe, #00f2fe, #43e97b, #4facfe);
+    background-size: 200% 200%;
+    animation: glowRotate 4s linear infinite;
+    z-index: -1;
+    opacity: 0.6;
+    filter: blur(4px);
+    display: block !important;
+}
+
+/* Fallback glow effect when color analysis fails */
+.profile-image.glow-fallback::before {
+    background: linear-gradient(45deg, #160d1c, #110328, #667eea) !important;
+    opacity: 1 !important;
+}
+
+.profile-image.glow-fallback::after {
+    background: linear-gradient(45deg, #764ba2, #f093fb, #4facfe) !important;
+    opacity: 0.8 !important;
+}
+
+@keyframes glowPulse {
+
+    0%,
+    100% {
+        background-position: 0% 50%;
+        transform: scale(1);
+    }
+
+    50% {
+        background-position: 100% 50%;
+        transform: scale(1.1);
+    }
+}
+
+@keyframes glowRotate {
+    0% {
+        background-position: 0% 50%;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        background-position: 100% 50%;
+        transform: rotate(360deg);
+    }
 }
 
 .profile-placeholder {
@@ -616,6 +706,27 @@ section {
         font-size: 3rem;
     }
 
+    .profile-image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profile-image::before {
+        top: -6px;
+        left: -6px;
+        right: -6px;
+        bottom: -6px;
+        filter: blur(6px);
+    }
+
+    .profile-image::after {
+        top: -3px;
+        left: -3px;
+        right: -3px;
+        bottom: -3px;
+        filter: blur(3px);
+    }
+
     .section-title {
         font-size: 2rem;
     }
@@ -670,6 +781,27 @@ section {
         padding: 6px 12px;
         font-size: 0.8rem;
     }
+
+    .profile-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profile-image::before {
+        top: -4px;
+        left: -4px;
+        right: -4px;
+        bottom: -4px;
+        filter: blur(4px);
+    }
+
+    .profile-image::after {
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        filter: blur(2px);
+    }
 }
 
 /* Animation Classes */
@@ -687,4 +819,19 @@ section {
 /* Smooth scrolling for anchor links */
 html {
     scroll-padding-top: 80px;
+}
+
+/* Circular favicon */
+link[rel="icon"] {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Alternative: Create a circular favicon using CSS */
+.favicon-circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-block;
 }

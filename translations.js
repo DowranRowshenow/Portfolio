@@ -46,7 +46,7 @@ const translations = {
 
     tr: {
         // Page title
-        "page_title": "Adınız - Portföy",
+        "page_title": "Döwran Röwşenow - Portföy",
 
         // Navigation
         "nav-logo": "Portföy",
@@ -85,12 +85,12 @@ const translations = {
         "contact-text": "Yeni fırsatlar ve heyecan verici projeler hakkında duymaya her zaman ilgi duyarım. Bağlantı kurmak isterseniz çekinmeden ulaşın!",
 
         // Footer
-        "footer-copyright": "© 2024 Adınız. Tüm hakları saklıdır."
+        "footer-copyright": "©2025 Döwran Röwşenow. Tüm hakları saklıdır."
     },
 
     ru: {
         // Page title
-        "page_title": "Ваше Имя - Портфолио",
+        "page_title": "Довран Ровшенов - Портфолио",
 
         // Navigation
         "nav-logo": "Портфолио",
@@ -129,12 +129,12 @@ const translations = {
         "contact-text": "Я всегда заинтересован в новых возможностях и захватывающих проектах. Не стесняйтесь обращаться, если хотите связаться!",
 
         // Footer
-        "footer-copyright": "© 2024 Ваше имя. Все права защищены."
+        "footer-copyright": "©2025 Довран Ровшенов. Все права защищены."
     },
 
     tm: {
         // Page title
-        "page_title": "Adyňyz - Portfoliýo",
+        "page_title": "Döwran Röwşenow - Portfoliýo",
 
         // Navigation
         "nav-logo": "Portfoliýo",
@@ -173,7 +173,7 @@ const translations = {
         "contact-text": "Täze mümkinçilikler we gyzykly layihalar barada eşitmekden hemişe gyzyklanýan. Habarlaşmak isleseňiz, çekinmäň!",
 
         // Footer
-        "footer-copyright": "© 2024 Adyňyz. Ähli hukuklar goraglanan."
+        "footer-copyright": "©2025 Döwran Röwşenow. Ähli hukuklar goraglanan."
     }
 };
 
