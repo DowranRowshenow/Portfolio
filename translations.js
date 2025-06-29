@@ -30,7 +30,7 @@ const translations = {
         "project-1-title": "Project One",
         "project-2-title": "Project Two",
         "project-3-title": "Project Three",
-        "project-1-desc": "A modern web application built with React and Node.js. Features include user authentication, real-time updates, and responsive design.",
+        "project-1-desc": "A modern web application built with Python and Django. Features include user authentication, real-time updates, and responsive design.",
         "project-2-desc": "A mobile-first responsive website with modern animations and optimized performance for all devices.",
         "project-3-desc": "A data visualization dashboard with interactive charts and real-time data processing capabilities.",
         "project-code": "Code",
@@ -74,7 +74,7 @@ const translations = {
         "project-1-title": "Proje Bir",
         "project-2-title": "Proje İki",
         "project-3-title": "Proje Üç",
-        "project-1-desc": "React ve Node.js ile geliştirilmiş modern bir web uygulaması. Kullanıcı kimlik doğrulama, gerçek zamanlı güncellemeler ve duyarlı tasarım özelliklerini içerir.",
+        "project-1-desc": "Python ve Django ile geliştirilmiş modern bir web uygulaması. Kullanıcı kimlik doğrulama, gerçek zamanlı güncellemeler ve duyarlı tasarım özelliklerini içerir.",
         "project-2-desc": "Modern animasyonlar ve tüm cihazlar için optimize edilmiş performans ile mobil öncelikli duyarlı web sitesi.",
         "project-3-desc": "Etkileşimli grafikler ve gerçek zamanlı veri işleme yetenekleri ile veri görselleştirme paneli.",
         "project-code": "Kod",
@@ -118,7 +118,7 @@ const translations = {
         "project-1-title": "Проект Один",
         "project-2-title": "Проект Два",
         "project-3-title": "Проект Три",
-        "project-1-desc": "Современное веб-приложение, построенное с React и Node.js. Включает аутентификацию пользователей, обновления в реальном времени и адаптивный дизайн.",
+        "project-1-desc": "Современное веб-приложение, построенное с Python и Django. Включает аутентификацию пользователей, обновления в реальном времени и адаптивный дизайн.",
         "project-2-desc": "Адаптивный веб-сайт с мобильным приоритетом, современными анимациями и оптимизированной производительностью для всех устройств.",
         "project-3-desc": "Панель визуализации данных с интерактивными диаграммами и возможностями обработки данных в реальном времени.",
         "project-code": "Код",
@@ -139,8 +139,8 @@ const translations = {
         // Navigation
         "nav-logo": "Portfoliýo",
         "nav-home": "Baş sahypa",
-        "nav-about": "Men hakynda",
-        "nav-projects": "Layihalar",
+        "nav-about": "Men hakda",
+        "nav-projects": "Proýektler",
         "nav-contact": "Habarlaşmak",
 
         // Hero Section
@@ -152,25 +152,25 @@ const translations = {
         "btn-contact": "Habarlaş",
 
         // About Section
-        "about-title": "Men hakynda",
+        "about-title": "Men hakda",
         "about-text-1": "Häzirki zaman web tehnologiýalarynda tejribeli gyzgyn öndüriji. Hakyky dünýä meselerini çözýän we ajaýyp ulanyjy tejribesi berýän programma döretmekden lezzet alýan.",
-        "about-text-2": "Frontend hem backend öndürmekde güýçli esasa eýe bolup, full-stack layihalar üstünde işlemekden we täze tehnologiýalar öwrenmekden lezzet alýan.",
+        "about-text-2": "Frontend hem backend öndürmekde güýçli esasa eýe bolup, full-stack proýektler üstünde işlemekden we täze tehnologiýalar öwrenmekden lezzet alýan.",
         "skills-title": "Ukyplar",
 
         // Projects Section
-        "projects-title": "Layihalarym",
-        "project-1-title": "Layiha Bir",
-        "project-2-title": "Layiha Iki",
-        "project-3-title": "Layiha Üç",
-        "project-1-desc": "React we Node.js bilen düzülen häzirki zaman web programmasy. Ulanyjy şahsyýetini tassyklamak, hakyky wagtynda täzelenmeler we jogapkar dizaýn aýratynlyklaryny öz içine alýar.",
+        "projects-title": "Proýektlerim",
+        "project-1-title": "Proýekt Bir",
+        "project-2-title": "Proýekt Iki",
+        "project-3-title": "Proýekt Üç",
+        "project-1-desc": "Python we Django bilen düzülen häzirki zaman web programmasy. Ulanyjy şahsyýetini tassyklamak, hakyky wagtynda täzelenmeler we jogapkar dizaýn aýratynlyklaryny öz içine alýar.",
         "project-2-desc": "Mobil öňcelikli jogapkar web sahypasy, häzirki zaman animasiýalary we ähli enjamlara optimizirlenen işjeňlik bilen.",
         "project-3-desc": "Girişimli grafikler we hakyky wagtynda maglumat işlemek ukyplary bilen maglumat görkezme paneli.",
         "project-code": "Kod",
-        "project-live": "Ganly",
+        "project-live": "Janly",
 
         // Contact Section
         "contact-title": "Habarlaş",
-        "contact-text": "Täze mümkinçilikler we gyzykly layihalar barada eşitmekden hemişe gyzyklanýan. Habarlaşmak isleseňiz, çekinmäň!",
+        "contact-text": "Täze mümkinçilikler we gyzykly proýektler barada eşitmekden hemişe gyzyklanýan. Habarlaşmak isleseňiz, çekinmäň!",
 
         // Footer
         "footer-copyright": "©2025 Döwran Röwşenow. Ähli hukuklar goraglanan."

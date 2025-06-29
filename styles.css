@@ -9,6 +9,7 @@
     background-color: #39333d;
     color: #e6dde4;
 }
+
 :root {
     /* Light Theme Colors */
     --bg-primary: #ffffff;
@@ -24,7 +25,7 @@
     --shadow-color: rgba(0, 0, 0, 0.1);
     --nav-bg: rgba(255, 255, 255, 0.95);
     --card-bg: #ffffff;
-    --hero-gradient: linear-gradient(135deg, #3a2349 0%, #1c073f 100%);
+    --hero-gradient: linear-gradient(135deg, #366c99 0%, #07293f 100%);
 }
 
 [data-theme="dark"] {
