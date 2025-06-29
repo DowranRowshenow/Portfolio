@@ -1,4 +1,14 @@
 /* CSS Variables for Theme Colors */
+::selection {
+    background-color: #39333d;
+    color: #e6dde4;
+}
+
+/* For Firefox, you'll also need the -moz- prefix */
+::-moz-selection {
+    background-color: #39333d;
+    color: #e6dde4;
+}
 :root {
     /* Light Theme Colors */
     --bg-primary: #ffffff;
