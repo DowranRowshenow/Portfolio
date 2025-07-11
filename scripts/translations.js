@@ -18,6 +18,7 @@ const translations = {
         "hero-description": "I create modern, functional, and user-centered digital experiences. Passionate about modern technologies and innovative solutions.",
         "btn-view-work": "View My Work",
         "btn-contact": "Get In Touch",
+        "btn-view-cv": "View CV",
 
         // About Section
         "about-title": "About Me",
@@ -60,6 +61,7 @@ const translations = {
         "hero-description": "Modern, işlevsel ve kullanıcı odaklı dijital deneyimler yaratıyorum. Modern teknolojiler ve yenilikçi çözümler konusunda tutkulu.",
         "btn-view-work": "Çalışmalarımı Gör",
         "btn-contact": "İletişime Geç",
+        "btn-view-cv": "CV'yi gör",
 
         // About Section
         "about-title": "Hakkımda",
@@ -102,6 +104,7 @@ const translations = {
         "hero-description": "Я создаю современные, функциональные и удобные цифровые решения. Увлечен современными технологиями и инновационными решениями.",
         "btn-view-work": "Посмотреть работы",
         "btn-contact": "Связаться",
+        "btn-view-cv": "Посмотреть резюме",
 
         // About Section
         "about-title": "Обо мне",
@@ -144,6 +147,7 @@ const translations = {
         "hero-description": "Häzirki zaman, işjeň we ulanyjy merkezli programmalar döredýärin. Döwrebap tehnologiýalar we täzeçe çözgütler barada işjeň.",
         "btn-view-work": "Işlerimi gör",
         "btn-contact": "Habarlaş",
+        "btn-view-cv": "Rezumeni gör",
 
         // About Section
         "about-title": "Men hakda",
