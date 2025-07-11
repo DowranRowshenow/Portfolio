@@ -525,6 +525,7 @@ section {
 
 /* Projects Section */
 .projects-grid {
+    justify-items: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
@@ -534,6 +535,7 @@ section {
 .project-card {
     background: var(--card-bg);
     border-radius: 12px;
+    max-width: 400px;
     overflow: hidden;
     box-shadow: 0 4px 6px var(--shadow-color);
     transition: all 0.3s ease;

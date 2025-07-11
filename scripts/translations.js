@@ -14,23 +14,22 @@ const translations = {
         // Hero Section
         "hero-greeting": "Hi, I'm",
         "hero-name": "Dovran Rovshenov",
-        "hero-title": "Full Stack Developer & Designer",
+        "hero-title": "Backend & Android Developer",
         "hero-description": "I create modern, functional, and user-centered digital experiences. Passionate about modern technologies and innovative solutions.",
         "btn-view-work": "View My Work",
         "btn-contact": "Get In Touch",
 
         // About Section
         "about-title": "About Me",
-        "about-text-1": "I'm a passionate developer with expertise in modern web technologies. I love creating applications that solve real-world problems and provide exceptional user experiences.",
+        "about-text-1": "I'm a passionate developer with expertise in modern web and mobile technologies. I love creating applications that solve real-world problems and provide exceptional user experiences.",
         "about-text-2": "With a strong foundation in both frontend and backend development, I enjoy working on full-stack projects and learning new technologies.",
         "skills-title": "Skills",
 
         // Projects Section
         "projects-title": "My Projects",
-        "project-2-title": "Project Two",
         "project-3-title": "Project Three",
         "project-1-desc": "A modern web application built with Python and Django. Features include user authentication, e-mail verification, and responsive design.",
-        "project-2-desc": "A mobile-first responsive website with modern animations and optimized performance for all devices.",
+        "project-2-desc": "A website with modern animations and user interface. Built with Python and Django. Features include user authentication, e-mail verification, and responsive design.",
         "project-3-desc": "A data visualization dashboard with interactive charts and real-time data processing capabilities.",
         "project-code": "Code",
         "project-live": "Live",
@@ -57,23 +56,22 @@ const translations = {
         // Hero Section
         "hero-greeting": "Merhaba, ben",
         "hero-name": "Döwran Röwşenow",
-        "hero-title": "Full Stack Geliştirici & Tasarımcı",
+        "hero-title": "Backend & Android Geliştirici",
         "hero-description": "Modern, işlevsel ve kullanıcı odaklı dijital deneyimler yaratıyorum. Modern teknolojiler ve yenilikçi çözümler konusunda tutkulu.",
         "btn-view-work": "Çalışmalarımı Gör",
         "btn-contact": "İletişime Geç",
 
         // About Section
         "about-title": "Hakkımda",
-        "about-text-1": "Modern web teknolojilerinde tutkulu bir geliştiriciyim. Gerçek dünya problemlerini çözen ve olağanüstü kullanıcı deneyimleri sağlayan uygulamalar oluşturmayı seviyorum.",
+        "about-text-1": "Modern web ve mobil teknolojilerinde tutkulu bir geliştiriciyim. Gerçek dünya problemlerini çözen ve olağanüstü kullanıcı deneyimleri sağlayan uygulamalar oluşturmayı seviyorum.",
         "about-text-2": "Hem frontend hem de backend geliştirmede güçlü bir temele sahip olarak, full-stack projeler üzerinde çalışmaktan ve yeni teknolojiler öğrenmekten zevk alıyorum.",
         "skills-title": "Yetenekler",
 
         // Projects Section
         "projects-title": "Projelerim",
-        "project-2-title": "Proje İki",
         "project-3-title": "Proje Üç",
         "project-1-desc": "Python ve Django ile geliştirilmiş modern bir web uygulaması. Kullanıcı kimlik doğrulama, e-posta dogrulama ve duyarlı tasarım özelliklerini içerir.",
-        "project-2-desc": "Modern animasyonlar ve tüm cihazlar için optimize edilmiş performans ile mobil öncelikli duyarlı web sitesi.",
+        "project-2-desc": "Modern animasyonlara ve arayüze sahip web sitesi. Python ve Django ile geliştirildi. Kullanıcı kimlik doğrulama, e-posta dogrulama ve duyarlı tasarım özelliklerini içerir.",
         "project-3-desc": "Etkileşimli grafikler ve gerçek zamanlı veri işleme yetenekleri ile veri görselleştirme paneli.",
         "project-code": "Kod",
         "project-live": "Canlı",
@@ -100,7 +98,7 @@ const translations = {
         // Hero Section
         "hero-greeting": "Привет, я",
         "hero-name": "Довран Ровшенов",
-        "hero-title": "Full Stack Разработчик и Дизайнер",
+        "hero-title": "Backend и Android Разработчик",
         "hero-description": "Я создаю современные, функциональные и удобные цифровые решения. Увлечен современными технологиями и инновационными решениями.",
         "btn-view-work": "Посмотреть работы",
         "btn-contact": "Связаться",
@@ -113,10 +111,9 @@ const translations = {
 
         // Projects Section
         "projects-title": "Мои проекты",
-        "project-2-title": "Проект Два",
         "project-3-title": "Проект Три",
         "project-1-desc": "Современное веб-приложение, построенное с Python и Django. Включает аутентификацию пользователей, проверка электронной почты и адаптивный дизайн.",
-        "project-2-desc": "Адаптивный веб-сайт с мобильным приоритетом, современными анимациями и оптимизированной производительностью для всех устройств.",
+        "project-2-desc": "Веб-приложение современными анимациями и дизайнами. Построенное с Python и Django. Включает аутентификацию пользователей, проверка электронной почты и адаптивный дизайн.",
         "project-3-desc": "Панель визуализации данных с интерактивными диаграммами и возможностями обработки данных в реальном времени.",
         "project-code": "Код",
         "project-live": "Живой",
@@ -143,7 +140,7 @@ const translations = {
         // Hero Section
         "hero-greeting": "Salam, men",
         "hero-name": "Döwran Röwşenow",
-        "hero-title": "Full Stack we Android Öndürijisi ",
+        "hero-title": "Backend we Android Öndürijisi ",
         "hero-description": "Häzirki zaman, işjeň we ulanyjy merkezli programmalar döredýärin. Döwrebap tehnologiýalar we täzeçe çözgütler barada işjeň.",
         "btn-view-work": "Işlerimi gör",
         "btn-contact": "Habarlaş",
@@ -156,10 +153,9 @@ const translations = {
 
         // Projects Section
         "projects-title": "Proýektlerim",
-        "project-2-title": "Proýekt Iki",
         "project-3-title": "Proýekt Üç",
         "project-1-desc": "Python we Django bilen düzülen häzirki zaman web programmasy. Ulanyjy şahsyýetini tassyklamak, elektron poçta barlama we jogapkar dizaýn aýratynlyklaryny öz içine alýar.",
-        "project-2-desc": "Mobil öňcelikli jogapkar web sahypasy, häzirki zaman animasiýalary we ähli enjamlara optimizirlenen işjeňlik bilen.",
+        "project-2-desc": "Häzirki zaman animasiýalara we dizaýna eýe web sahypasy. Python we Django bilen düzülen. Ulanyjy şahsyýetini tassyklamak, elektron poçta barlama we jogapkar dizaýn aýratynlyklaryny öz içine alýar.",
         "project-3-desc": "Girişimli grafikler we hakyky wagtynda maglumat işlemek ukyplary bilen maglumat görkezme paneli.",
         "project-code": "Kod",
         "project-live": "Janly",
